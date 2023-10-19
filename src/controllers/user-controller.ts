@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import { injectable, container } from 'tsyringe';
-import { GetAllUser } from "../useCases/user/getAllUser";
-import { GetByIdUser } from "../useCases/user/getByIdUser";
-import { AddUser } from "../useCases/user/addUser";
-import { DeleteUser } from "../useCases/user/deleteUser";
+import { GetAllUser } from "../use-cases/user/getAllUser";
+import { GetByIdUser } from "../use-cases/user/getByIdUser";
+import { AddUser } from "../use-cases/user/addUser";
+import { DeleteUser } from "../use-cases/user/deleteUser";
 import { User } from "../domain/entities/user";
 
 @injectable()
